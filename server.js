@@ -16,7 +16,7 @@ if(process.env.NODE_ENV === 'production') {
     })
 }
 
-//Connecting to MongoDB and running on server port 4000
+//Connecting to MongoDB and running on express server port 4000
 
 const dbURI = config.get('dbURI')
 const port = process.env.PORT || 4000
